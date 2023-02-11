@@ -32,11 +32,11 @@
     <section class="formLogin">
         <div class="formArea container col-6">
             <h1>Faça login para continuar:</h1>
-            <form>
+            <form name="loginForm" onsubmit="return validateForm()" method="post">
                  <label for="email-login" class="labelForm">E-mail de usuário</label>
-                 <input type="email" id="email-login" class="loginInput"><br>
+                 <input type="email" id="email-login" class="loginInput" name="emailLogin"><br>
                  <label for="password-login" class="labelForm">Senha</label>
-                 <input type="password" id="password-login" class="loginInput"><br>
+                 <input type="password" id="password-login" class="loginInput" name="passwordLogin"><br>
                  <input type="submit" id="btn-enviar" name="btn-enviar" required class="btnBuy">
             </form>
         </div>
@@ -106,5 +106,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
