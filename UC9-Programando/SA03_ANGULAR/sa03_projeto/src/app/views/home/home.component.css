@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.banner{
+    height: 577px;
+    width: 100%;
+    display:inline-block;
+    position:relative
+}
+
+.bannerImg {
+    max-width: 100%;
+    height: 577px;
+    object-fit: cover;
+}
+
+.bannerText{
+    width: 494px;
+    height: 270px;
+    font-family: Roboto;
+    color: white;
+    position: absolute;
+    left: 806px;
+    top: 165px;
+    text-align: center;
+}
+
+.bannerText h1 {
+    height: 50px;
+    font-size: 75px;
+    font-weight: 700;
+    flex: 1 1 auto;
+}
+
+.bannerText p{
+    font-weight: 400;
+    font-size: 25px;
+    flex: 1 1 auto;
+}
+
+.bannerText button{
+    width: 257px;
+    height: 62.48px;
+    background: #C31616;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*################ LEAGUES ##################*/
+.leagues {
+    height: 68px;
+    display: flex;
+    background-color: black;
+    text-align: center; /*alinhamento horizontal texto*/
+    justify-content: space-around; /*alinhamento horizontal para flexbox quando os elementos não usam todo o espaço*/
+    align-items: center; /*alinha os elementos verticalmente*/
+}
+
+.leagueImg {
+    max-width: 136px;
+    max-height: 34px;
+    margin: 0px;
+}
+
+/*################ OFFERS ##################*/
+.offers {
+    background-color: #1E1C21;
+    height: 859px;
+}
+
+.offerTitle{
+    height: 90px;
+    width: 100%;
+    position: relative
+}
+
+.offerTitle h2{
+    color: white;
+    font-family: Roboto;
+    font-size: 27px;
+    position: absolute;
+    left: 140px;
+    top: 29px;
+}
+
+.offerTable {
+    width: 100%;
+    max-height: 769px;
+    /*padding: 0px 100px 18px 100px;*/
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.offer{
+    margin: 18px 50px 18px 50px;
+    height:333px;
+    width:215px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+}
+
+.offerImg{
+    max-width: 215px;
+    max-height: 144.66px;
+}
+
+.offerInfo {
+    color: white;
+    font-family: Roboto;
+    text-align: left;
+    padding: 12px;
+}
+
+.offerInfo h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.offerInfo p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.offerInfo h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btnBuy {
+    background: #C31616;
+    border-radius: 10px;
+    height: 39px;
+    width: 190px;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*################ ABOUT ##################*/
+
+.about {
+    position:relative;
+    height: 489px;
+}
+
+.aboutBgImg {
+    position: absolute;
+    width:100%;
+    height: 489px;
+    z-index:1;
+}
+
+.aboutContent{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutInfo{
+    width: 575px;
+    z-index: 2;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.aboutImg{
+    width: 575px;
+    height: 488px;
+    z-index: 2;
+}

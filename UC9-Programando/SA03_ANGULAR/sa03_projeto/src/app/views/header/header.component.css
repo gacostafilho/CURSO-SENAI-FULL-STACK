@@ -1,0 +1,18 @@
+  /*################ HEADER ##################*/
+.mat-toolbar {
+  background-color: black;
+}
+
+.logo {
+  height:34px;
+  width:282px;
+  flex: 1 1 auto;
+}
+
+.menu-link
+{
+  font-family: Roboto;
+  color: white;
+  text-decoration:none;
+  flex: 0.1 1 auto;
+}

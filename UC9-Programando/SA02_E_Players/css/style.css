@@ -92,7 +92,7 @@ header {
     position: absolute;
     left: 806px;
     top: 165px;
-    text-align: center;
+    flex: 1 1 auto;
 }
 
 .bannerText h1 {
