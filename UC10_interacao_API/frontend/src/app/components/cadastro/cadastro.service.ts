@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { Cadastro } from './cadastro.model';
-import { Observable } from 'rxjs';
+import { Observable, EMPTY } from 'rxjs';
+import { map, catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -13,15 +14,25 @@ export class CadastroService {
 
   constructor( private snackBar: MatSnackBar, private http: HttpClient) {}
 
-  showMessage(msg: string): void{
+  showMessage(msg: string, isError: boolean = false): void{
     this.snackBar.open(msg, 'X', {
       duration: 6000,
-      verticalPosition: "bottom"
+      verticalPosition: "top",
+      panelClass: isError ? ['errorMsg'] : ['succesMsg']
     })
   }
 
   create(cadastro: Cadastro): Observable<Cadastro[]>{
-    return this.http.post<Cadastro[]>(this.baseUrl, cadastro)
+    return this.http.post<Cadastro[]>(this.baseUrl, cadastro).pipe(
+      map((obj) => obj),
+      catchError(e => this.errorMsg(e))
+    )
+  }
+
+  errorMsg(e: any): Observable<any>{
+    console.log(e);
+    this.showMessage('Não foi possível realizar o cadastro',true);
+    return EMPTY
   }
 
   read(): Observable<Cadastro[]>{
