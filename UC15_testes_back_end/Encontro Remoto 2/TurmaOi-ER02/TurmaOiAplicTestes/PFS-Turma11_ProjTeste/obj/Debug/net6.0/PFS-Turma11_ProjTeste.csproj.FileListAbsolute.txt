@@ -1,0 +1,12 @@
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\bin\Debug\net6.0\PFS-Turma11_ProjTeste.deps.json
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\bin\Debug\net6.0\PFS-Turma11_ProjTeste.dll
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\bin\Debug\net6.0\PFS-Turma11_ProjTeste.pdb
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.csproj.AssemblyReference.cache
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.AssemblyInfoInputs.cache
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.AssemblyInfo.cs
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.csproj.CoreCompileInputs.cache
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.dll
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\refint\PFS-Turma11_ProjTeste.dll
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\PFS-Turma11_ProjTeste.pdb
+C:\Users\senaisp\Desktop\Aulas\28-03-23\PSF_Turma11\PFS-Turma11_ProjTeste\PFS-Turma11_ProjTeste\obj\Debug\net6.0\ref\PFS-Turma11_ProjTeste.dll

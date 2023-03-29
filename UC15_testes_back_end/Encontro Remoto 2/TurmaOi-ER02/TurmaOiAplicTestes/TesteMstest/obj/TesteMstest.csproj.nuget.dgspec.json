@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\TesteMsTest\\TesteMsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste.csproj",
+        "projectName": "PFS-Turma11_ProjTeste",
+        "projectPath": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste.csproj",
+        "packagesPath": "C:\\Users\\senaisp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\senaisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\TesteMsTest\\TesteMsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\TesteMsTest\\TesteMsTest.csproj",
+        "projectName": "TesteMsTest",
+        "projectPath": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\TesteMsTest\\TesteMsTest.csproj",
+        "packagesPath": "C:\\Users\\senaisp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\TesteMsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\senaisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste.csproj": {
+                "projectPath": "C:\\Users\\senaisp\\Desktop\\Aulas\\28-03-23\\PSF_Turma11\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste\\PFS-Turma11_ProjTeste.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

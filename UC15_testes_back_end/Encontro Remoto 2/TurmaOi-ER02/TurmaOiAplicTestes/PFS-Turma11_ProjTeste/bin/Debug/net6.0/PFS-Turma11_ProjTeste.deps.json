@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PFS-Turma11_ProjTeste/1.0.0": {
+        "runtime": {
+          "PFS-Turma11_ProjTeste.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PFS-Turma11_ProjTeste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
